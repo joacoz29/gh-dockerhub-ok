@@ -23,4 +23,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag joacotullio/node-test:latest     
     - name: Docker Push
-      run: docker push mguazzardo/node-test:latest
+      run: docker push joacotullio/node-test:latest
